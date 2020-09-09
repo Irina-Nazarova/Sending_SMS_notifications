@@ -5,7 +5,7 @@ import string
 
 def random_string(string_length=15):
     letters = string.ascii_letters
-    return ''.join(random.choice(letters) for _ in range(string_length))
+    return "".join(random.choice(letters) for _ in range(string_length))
 
 
 @pytest.fixture
@@ -16,7 +16,7 @@ def vk_sid():
 class MockResponseGET:
     @staticmethod
     def json():
-        assert False, 'Проверьте, что используете метод POST для ВК'
+        assert False, "Проверьте, что используете метод POST для ВК"
 
 
 @pytest.fixture
