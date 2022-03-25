@@ -1,3 +1,3 @@
 
-# Sending SMS notifications 
+## Sending SMS notifications 
 - мониторит определённого пользователя в VK. Уведомляет по sms, когда пользователь окажется онлайн.
